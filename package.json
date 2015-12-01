@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "scripts" : {
+    "setup": "rm -rf public/vendor node_modules && npm i && bower i",
+    "start":"node app.js",
+    "postinstall": "bower i",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "engines": {
     "node": "5.0.0"
     },
-  "scripts": {
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Missybur/Conversasion_App.git"
