@@ -11,13 +11,13 @@ app.config(function($stateProvider, $urlRouterProvider, $authProvider) {
     .state('profile', { url: '/profile', templateUrl: 'partials/profile.html', controller: 'profileCtrl'})
 
     $authProvider.github({
-      clientId: 'a24f8ae4f7f98525f469'
+      clientId: '9b9ad5afe6686118d449'
     });
     $authProvider.google({
       clientId: '458863588800-tm5t0hu3l19lk5kkfbop7s61tpphcdv4.apps.googleusercontent.com'
     });
     $authProvider.facebook({
-      clientId: '1493282791002039'
+      clientId: '935009989906425'
     });
 
     $authProvider.twitter();
