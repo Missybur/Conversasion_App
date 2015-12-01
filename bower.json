@@ -1,0 +1,25 @@
+{
+  "name": "missybur",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "Missy Bur <missybur@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Missybur/Conversasion_App",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "satellizer": "~0.13.1",
+    "jquery": "~2.1.4",
+    "angular": "~1.4.8",
+    "angular-ui-router": "~0.2.15"
+  }
+}

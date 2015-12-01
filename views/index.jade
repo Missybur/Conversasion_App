@@ -14,8 +14,8 @@ html
         button(class="login" ui-sref='login') LOGIN
 
       span(ng-if='isAuthenticated()')
-        button(ui-sref='profile') profile
-        button(ng-click='logout()') logout
+        button(class="profile" ui-sref='profile') profile
+        button( class="logout" ng-click='logout()') logout
     ui-view
 
     script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js")
